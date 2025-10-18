@@ -6,9 +6,18 @@ This repo is a collection of relevant links to get started with physical computi
 
 Preferable try and do this before the workshop
 1. Download and install the latest [Arduino IDE](https://www.arduino.cc/en/software/#ide)
-2. Setting up [Feather Sense in Arduino IDE](https://learn.adafruit.com/adafruit-feather-sense/arduino-support-setup)
-3. Check out the Feather Sense [Overview](https://learn.adafruit.com/adafruit-feather-sense)
+2. Check out the Feather Sense [Overview](https://learn.adafruit.com/adafruit-feather-sense)
+3. Setting up [Feather Sense in Arduino IDE](https://learn.adafruit.com/adafruit-feather-sense/arduino-support-setup)
+    * Open settings `Menu > Arduino IDE > Settings`
+    * Add 'Additional Board Manager URL' `https://adafruit.github.io/arduino-board-index/package_adafruit_index.json`
+    * Restart IDE
+    * Install 'Adafruit nRF52 by Adafruit' `Tools > Board > Boards Manager`
 4. Try uploading the [Sensor Example Code](https://learn.adafruit.com/adafruit-feather-sense/arduino-sensor-example), see if that works and logs the sensor data.
+    * Select the board `Menu > Tools > Board > Adafruit nRF52 > Adafruit Feather nRF52840 Sense`
+    * Select the USB port `Menu > Tools > Port`
+        * On Mac it pops up as `/dev/cu.usbmodemXXXX (Adafruit Feather nRF52840 Sense)`
+        * On Windows, do the [Windows Driver Installation](https://learn.adafruit.com/adafruit-arduino-ide-setup/windows-driver-installation), then it pops up as `COM XX (Adafruit Feather nRF52840 Sense)`
+    * 
 
 ## Related links
 
