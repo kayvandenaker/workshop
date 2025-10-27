@@ -22,13 +22,18 @@ Try uploading the [Sensor Example Code](https://github.com/kayvandenaker/worksho
 3. Double click Reset button on Feather (LED goes green)
 4. Press upload (⌘ + U)
 
+## Errors
+
+Make sure you have the libraries install that are imported at the top `Menu > Sketch > Include Library > Manage Libraries`
+
+LLMs are your friend! Paste the error in ChatGPT with the context, such as `I have an Adafruit Feather Sense and I'm trying to do XYZ, but I get this error: [PASTE ERROR]`. This also works great if you want to debug your code, clean it up, or add new features!
+
 ## Related links
 
 ### Micro controller as a keyboard
 
-An easy way to control other applications without building integrations for the hardware, is to simply turn your Arduino or Feather into a (bluetooth) keyboard, and trigger events in your software with keyboard inputs. This works great for Figma, ProtoPie, Unity, etc. 
-* Basic Arduino example for [Keyboard and Mouse Control](https://docs.arduino.cc/built-in-examples/usb/KeyboardAndMouseControl) 
-* Adafruit Feather Sense library for [Bluetooth Keyboard and Mouse Control](https://github.com/cyborg5/BLE52_Mouse_and_Keyboard)
+An easy way to control other applications without building integrations for the hardware, is to simply turn your Arduino or Feather into a (bluetooth) keyboard, and trigger events in your software with keyboard inputs. This works great for Figma, ProtoPie, Unity, etc.
+* A super simple [keyboard example](https://github.com/kayvandenaker/workshop/blob/a5be57dda27ae153d5fd57a22e37b4a5bc63fffe/keyboard/keyboard.ino) using the [TinyUSB library from Adafruit](https://github.com/adafruit/Adafruit_TinyUSB_Arduino)
 
 
 ### Micro controller communicating with a computer
