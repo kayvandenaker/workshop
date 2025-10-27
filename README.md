@@ -20,7 +20,8 @@ Try uploading the [Sensor Example Code](https://github.com/kayvandenaker/worksho
      * On Mac it pops up as `/dev/cu.usbmodemXXXX (Adafruit Feather nRF52840 Sense)`
      * On Windows, do the [Windows Driver Installation](https://learn.adafruit.com/adafruit-arduino-ide-setup/windows-driver-installation), then it pops up as `COM XX (Adafruit Feather nRF52840 Sense)`
 3. Double click Reset button on Feather (LED goes green)
-4. Press upload (⌘ + U)
+4. Press the upload button on the top right `[→]` (⌘ + U)
+5. Open the Serial Monitor to see the sensor data `Menu > Tools > Serial Monitor` (⌘ + Shift + M)
 
 ## Errors
 
