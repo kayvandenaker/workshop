@@ -21,7 +21,8 @@ Try uploading the [Sensor Example Code](https://github.com/kayvandenaker/worksho
      * On Windows, do the [Windows Driver Installation](https://learn.adafruit.com/adafruit-arduino-ide-setup/windows-driver-installation), then it pops up as `COM XX (Adafruit Feather nRF52840 Sense)`
 3. Double click Reset button on Feather (LED goes green)
 4. Press the upload button on the top right `[→]` (⌘ + U)
-5. Open the Serial Monitor to see the sensor data `Menu > Tools > Serial Monitor` (⌘ + Shift + M)
+5. Install the Adafruit libraries imported at the top of the sketch `Menu > Sketch > Include Library > Manage Libraries`
+6. Open the Serial Monitor to see the sensor data `Menu > Tools > Serial Monitor` (⌘ + Shift + M)
 
 ## Errors
 
