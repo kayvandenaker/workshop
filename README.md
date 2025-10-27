@@ -33,7 +33,8 @@ LLMs are your friend! Paste the error in ChatGPT with the context, such as `I ha
 ### Micro controller as a keyboard
 
 An easy way to control other applications without building integrations for the hardware, is to simply turn your Arduino or Feather into a (bluetooth) keyboard, and trigger events in your software with keyboard inputs. This works great for Figma, ProtoPie, Unity, etc.
-* A super simple [keyboard example](https://github.com/kayvandenaker/workshop/blob/a5be57dda27ae153d5fd57a22e37b4a5bc63fffe/keyboard/keyboard.ino) using the [TinyUSB library from Adafruit](https://github.com/adafruit/Adafruit_TinyUSB_Arduino)
+* [Serial keyboard example](https://github.com/kayvandenaker/workshop/blob/fcdcdbc1d379027dedf368162ea4eb1e676a4adc/feather%20sense%20keyboard%20examples/serial_keyboard/serial_keyboard.ino) (wired)
+* [Bluetooth keyboard example](https://github.com/kayvandenaker/workshop/blob/fcdcdbc1d379027dedf368162ea4eb1e676a4adc/feather%20sense%20keyboard%20examples/bluetooth_keyboard/bluetooth_keyboard.ino) (wireless)
 
 
 ### Micro controller communicating with a computer
