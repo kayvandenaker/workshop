@@ -12,12 +12,15 @@ Preferable try and do this before the workshop
     * Add 'Additional Board Manager URL' `https://adafruit.github.io/arduino-board-index/package_adafruit_index.json`
     * Restart IDE
     * Install 'Adafruit nRF52 by Adafruit' `Tools > Board > Boards Manager`
-4. Try uploading the [Sensor Example Code](https://github.com/kayvandenaker/workshop/blob/6e428bb045ee6cdecae2fe74137074747b868f5b/feather%20sense%20examples/all_sensors/all_sensors.ino), see if that works and logs the sensor data.
-    * Select the board `Menu > Tools > Board > Adafruit nRF52 > Adafruit Feather nRF52840 Sense`
-    * Select the USB port `Menu > Tools > Port`
-        * On Mac it pops up as `/dev/cu.usbmodemXXXX (Adafruit Feather nRF52840 Sense)`
-        * On Windows, do the [Windows Driver Installation](https://learn.adafruit.com/adafruit-arduino-ide-setup/windows-driver-installation), then it pops up as `COM XX (Adafruit Feather nRF52840 Sense)`
-    * 
+
+## Uploading a sketch
+Try uploading the [Sensor Example Code](https://github.com/kayvandenaker/workshop/blob/6e428bb045ee6cdecae2fe74137074747b868f5b/feather%20sense%20examples/all_sensors/all_sensors.ino), see if that works and logs the sensor data.
+1. Select the board `Menu > Tools > Board > Adafruit nRF52 > Adafruit Feather nRF52840 Sense`
+2. Select the USB port `Menu > Tools > Port`
+     * On Mac it pops up as `/dev/cu.usbmodemXXXX (Adafruit Feather nRF52840 Sense)`
+     * On Windows, do the [Windows Driver Installation](https://learn.adafruit.com/adafruit-arduino-ide-setup/windows-driver-installation), then it pops up as `COM XX (Adafruit Feather nRF52840 Sense)`
+3. Double click Reset button on Feather (LED goes green)
+4. Press upload (⌘ + U)
 
 ## Related links
 
