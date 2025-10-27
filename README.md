@@ -26,7 +26,7 @@ Try uploading the [Sensor Example Code](https://github.com/kayvandenaker/worksho
 
 ## Errors
 
-Make sure you have the libraries install that are imported at the top `Menu > Sketch > Include Library > Manage Libraries`
+Make sure you have the libraries installed that are imported at the top `Menu > Sketch > Include Library > Manage Libraries`
 
 LLMs are your friend! Paste the error in ChatGPT with the context, such as `I have an Adafruit Feather Sense and I'm trying to do XYZ, but I get this error: [PASTE ERROR]`. This also works great if you want to debug your code, clean it up, or add new features!
 
